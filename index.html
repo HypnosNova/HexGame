@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="css/rotate.css"/>
+	<link rel="stylesheet" type="text/css" href="css/ui.css"/>
+	<link rel="stylesheet" type="text/css" href="css/halo.css"/>
+	<script src="js/snowMaps.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
+	<script type="text/javascript" src="js/queue.js" ></script>
+	<script src="js/effQueue.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/music.js" ></script>
+	<script type="text/javascript" src="js/drawHex.js" ></script>
+	<script type="text/javascript" src="js/hint2.js" ></script>
+	<script>
+		$(getXY);
+		$(createWorld);
+		$(addAllSnow);
+	</script>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body style="padding: 0px;">
+		<div id="world" name="sn" style="position: absolute;margin-left: -8px;margin-top: -8px;">
+			<div id="board">
+				<div class=milky id="scoreDiv">
+					Score:0
+				</div>
+				<div class=milky id="scoreDiv" style="" onclick="scanAll2()">
+					Hint
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
